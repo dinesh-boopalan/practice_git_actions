@@ -1,6 +1,6 @@
 name: Vite practice
 on: push
-jobs:
+jobs: 
   lint:
     runs-on: ubuntu-latest
     steps:
