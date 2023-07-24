@@ -1,6 +1,6 @@
 name: Vite practice
 on: push
-  jobs:
+jobs: 
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -11,7 +11,7 @@ on: push
         with:
           node-version: 18
       - name: intall dependencies
-        run: npm install
+        run: npm instal
       - name: lint
         run: npm run lint
       
